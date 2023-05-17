@@ -28,67 +28,85 @@ Partial Class Form2
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(205, 129)
+        Me.TextBox1.Location = New System.Drawing.Point(259, 133)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(214, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(256, 35)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(436, 129)
+        Me.TextBox2.Location = New System.Drawing.Point(259, 195)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(220, 31)
+        Me.TextBox2.Size = New System.Drawing.Size(256, 35)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(205, 339)
+        Me.TextBox3.Location = New System.Drawing.Point(185, 397)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(451, 31)
+        Me.TextBox3.Size = New System.Drawing.Size(393, 35)
         Me.TextBox3.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(205, 198)
+        Me.Button1.Location = New System.Drawing.Point(259, 269)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(451, 34)
+        Me.Button1.Size = New System.Drawing.Size(256, 41)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Trocar os nomes nas caixas de texto"
+        Me.Button1.Text = "Trocar os nomes"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(205, 265)
+        Me.Button2.Location = New System.Drawing.Point(259, 318)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(451, 34)
+        Me.Button2.Size = New System.Drawing.Size(256, 40)
         Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Juntar os nomes na caixa em baixo"
+        Me.Button2.Text = "Juntar os nomes"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(256, 63)
+        Me.Label1.Location = New System.Drawing.Point(53, 133)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(334, 25)
+        Me.Label1.Size = New System.Drawing.Size(158, 30)
         Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Escreva dois nomes nas caixas em baixo "
+        Me.Label1.Text = "Primeiro Nome:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(69, 195)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(142, 30)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Ultimo Nome:"
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 30.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(960, 540)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
@@ -102,4 +120,5 @@ Partial Class Form2
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
