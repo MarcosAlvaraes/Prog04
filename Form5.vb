@@ -16,6 +16,8 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Double x = Rnd.Next(0, 100)
+        Dim aux As Integer = CInt(Int((100 * Rnd()) + 1))
+        Legenda.Text = aux
     End Sub
+
 End Class
